@@ -278,4 +278,64 @@ footer p {
         font-size: 1.2rem;
         margin-top: -1.5rem;
     }
+    /*boxes*/
+    .boxes {
+        width: 85%;
+    }
+    .box {
+        width: 100%;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    .box img {
+        width: 50%;
+        margin-left: 6rem;
+    }
+    /*last-part*/
+    .last-part {
+        width: 85%;
+    }
+    .left {
+        width: 100%;
+    }
+    .left p {
+        line-height: 1.5rem;
+        font-size: 0.8rem;
+    }
+    .one {
+        width: 30%;
+    }
+    .one img {
+        width: 80%;
+    }
+    .two {
+        width: 70%;
+    }
+    .two h2 {
+        font-size: 1.5rem;
+    }
+    .right {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .down {
+        height: 140px;
+    }
+    .down p {
+        width: 60%;
+        line-height: 1.5rem;
+        font-size: 0.8rem;
+    }
+    /*footer*/
+    footer p {
+        width: 100%;
+        text-align: center;
+    }
+    .social {
+        width: 100%;
+    }
+    .social span {
+        font-size: 1.2rem;
+        margin-right: 1rem;
+    }
 }
