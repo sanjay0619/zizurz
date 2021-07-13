@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.color {
+    width: 100%;
+    background-color: #5fb3bd;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ziz {
+    width: 20%;
+    height: 70px;
+    position: relative;
+    top: 5rem;
+    background-color: black;
+}
+
+header h1 {
+    margin-top: 0.7rem;
+    text-align: center;
+    font-size: 2.8rem;
+    color: white;
+}
+
+.lists {
+    width: 80%;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    background-color: black;
+    padding: 1% 2%;
+    list-style-type: none;
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*top*/
+
+.top {
+    border: 1px solid #5fb3bd;
+    margin-top: 3rem;
+}
+
+.image {
+    width: 40%;
+}
+
+.image img {
+    width: 100%;
+    display: block;
+}
+
+.great {
+    width: 60%;
+    margin-top: 4rem;
+}
+
+.great h1 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+
+/*boxes*/
+
+.boxes {
+    margin-top: 3rem;
+}
+
+.box {
+    width: 23%;
+}
+
+.box img {
+    width: 100%;
+    border: 3px solid #5fb3bd;
+    display: block;
+    box-shadow: 0px 5px 5px;
+}
+
+.box h2 {
+    font-size: 1.2rem;
+}
+
+.box p {
+    color: gray;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+}
+
+
+/*last-part*/
+
+.last-part {
+    margin-top: 3rem;
+}
+
+.last-part .fix {
+    background-color: black;
+    color: white;
+    width: 140px;
+    height: 45px;
+    padding: 2.2%;
+    position: relative;
+    top: -3.5rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.left {
+    width: 48%;
+    border: 3px solid #5fb3bd;
+    padding: 2%;
+}
+
+.left p {
+    color: gray;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+}
+
+.each {
+    margin-top: -2rem;
+}
+
+.one {
+    width: 30%;
+}
+
+.one img {
+    width: 80%;
+}
+
+.two {
+    width: 70%;
+}
+
+.two h2 {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-top: 0rem;
+}
+
+.right {
+    width: 48%;
+}
+
+.right p {
+    color: gray;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+}
+
+h4 {
+    color: gray;
+    text-align: right;
+}
+
+.up,
+.down {
+    margin-bottom: 2rem;
+    border: 3px solid #5fb3bd;
+    padding: 4%;
+}
+
+.up p {
+    margin-top: -3rem;
+}
+
+.down {
+    padding: 0 0;
+    height: 200px;
+}
+
+.down .img {
+    width: 35%;
+}
+
+.down p {
+    width: 60%;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+}
+
+.down img {
+    width: 100%;
+    display: block;
+    position: relative;
+    top: -0.5rem;
+}
+
+
+/*footer*/
+
+footer {
+    margin-top: 3rem;
+}
+
+footer p {
+    width: 60%;
+    text-align: right;
+    color: white;
+    margin-top: 2.5rem;
+}
+
+.social {
+    width: 20%;
+    text-align: center;
+    background-color: gray;
+    padding: 2%;
+    margin: 1rem 0;
+}
+
+.social span {
+    font-size: 1.2rem;
+    color: white;
+    margin-right: 1rem;
+}
+
+@media (max-width:420px) {
+    .ziz {
+        position: relative;
+        top: 0rem;
+    }
+    ul {
+        display: none;
+    }
+    /*top*/
+    .top {
+        width: 85%;
+    }
+    .image {
+        display: block;
+    }
+    .image img {
+        display: block;
+    }
+    .great {}
+    .great h1 {
+        font-size: 1.2rem;
+        margin-top: -1.5rem;
+    }
+}
